@@ -1,0 +1,108 @@
+/*html*/
+html{
+	height: 100%;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	padding-top: 70px;
+}
+h2{
+	font-weight: 700;
+	font-size: 3em;
+	color: #f14e12;
+}
+hr{
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+/*fonts*/
+.fab{
+	font-size: 17px;
+	color: #fff;
+}
+
+/*navbar*/
+.navbar-inverse{
+	background: #f14e12;
+	border:none;
+}
+.navbar-inverse .navbar-brand{
+	color: #ffffff;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background: #d24410;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background: #d24410;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #000;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #000;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #000;
+}
+
+/*Dropdown*/
+.dropdown-menu li a{
+	color: #000;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f14e12;
+}
+
+/*content*/
+.content{
+	color: #000;
+	text-align: center;
+}
+.cap{
+	padding-bottom: 15px;
+}
+/*caption*/
+.caption h3{
+	text-align: center;
+}
+
+/*btn*/
+.btn{
+	color: #f14e12;
+	-webkit-transition:1s;
+}
+.btn:hover{
+	background: #f14e12;
+	color: #fff;
+	-webkit-transition:1s;
+}
+
+/*input*/
+.form-control:focus {
+    border-color: #f14e12;
+    outline: 0;
+}
+
+/*footer Divider*/
+.featurette-divider {
+    margin: 30px 0;
+    width: auto;
+}
+/*Footer*/
+.footer {
+    width: 100%;
+    height: 60px;
+}
+.footer .text-muted{
+	color: #000;
+	text-align: center;
+}
+.footer .text-muted>a{
+	color: #000;
+}
