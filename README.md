@@ -10,4 +10,3 @@ Technology used
 
 LIVE-PREVIEW
 
-https://bootstrap-harshpainter.c9users.io/
