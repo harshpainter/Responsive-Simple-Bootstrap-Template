@@ -7,6 +7,3 @@ Technology used
 2.CSS
 
 3.BOOTSTRAP
-
-LIVE-PREVIEW
-
